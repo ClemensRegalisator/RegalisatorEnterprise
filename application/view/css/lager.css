@@ -1,0 +1,27 @@
+.regal {
+    -fx-border-width: 0px 15px;
+    -fx-border-color: #ab4d49;
+
+}
+
+.stapel {
+}
+
+#lager {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/boden.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: bottom;
+
+}
+
+.brett {
+    -fx-border-color: black;
+    -fx-border-width: 0px 0px 6px 0px;
+}
+
+#paket {
+
+}
+
+

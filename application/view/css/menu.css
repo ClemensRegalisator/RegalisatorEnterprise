@@ -1,0 +1,358 @@
+.button {
+    -fx-background-color: transparent;
+    -fx-background-color: #2e2e34;
+    -fx-text-fill: white;
+    -fx-background-radius: 0;
+}
+
+.button:hover {
+    -fx-background-color: #FF9900;
+    -fx-text-fill: #2e2e34;
+
+}
+
+.slider .track {
+    -fx-pref-height: 8;
+    -fx-background-color: linear-gradient(rgba(0, 0, 0, 0.18), rgba(178, 178, 178, 0.48));
+    -fx-control-inner-background: palegreen;
+
+}
+
+.slider .thumb {
+    -fx-pref-height: 26;
+    -fx-pref-width: 26;
+    -fx-background-color: #FF9900;
+}
+
+#preview {
+    -fx-background-color: lightgray;
+    -fx-border-color: #4c494a;
+    -fx-border-width: 10px;
+}
+
+#preview_infoContainer {
+    -fx-background-color: #2e2e34;
+    -fx-min-width: 280;
+
+}
+
+.sidemenu_infoIcon {
+    -fx-min-width: 60;
+    -fx-min-height: 25;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-alignment: baseline-left;
+    -fx-text-alignment: right;
+
+}
+
+#top {
+    -fx-background-color: #4c494a;
+
+}
+
+#preview_empty {
+    -fx-background-color: darkgray;
+}
+
+#sideMenu {
+    -fx-background-color: #4c494a;
+}
+
+#colorchoser {
+    -fx-background-color: darkgray;
+    -fx-max-height: 162;
+    -fx-min-height: 162;
+}
+
+#colorChoser_buttons {
+    -fx-background-radius: 100%;
+    -fx-min-height: 40;
+    -fx-min-width: 40;
+    -fx-border-style: hidden;
+    -fx-opacity: 50%;
+
+}
+
+#colorChoser_buttonbar {
+    -fx-background-color: #2e2e34;
+}
+
+#colorChoser_ausgewaehlt {
+    -fx-background-radius: 100%;
+    -fx-min-height: 40;
+    -fx-min-width: 40;
+    -fx-border-color: #4c494a;
+    -fx-border-radius: 100%;
+    -fx-border-width: 240%;
+    -fx-opacity: 100%;
+}
+
+#unvertrChoser_ausgewaehlt {
+    -fx-background-radius: 100%;
+    -fx-min-height: 40;
+    -fx-min-width: 40;
+    -fx-border-color: #ab4d49;
+    -fx-border-radius: 100%;
+    -fx-border-width: 240%;
+    -fx-opacity: 100%;
+
+}
+
+#textSchwarz {
+    -fx-text-fill: #2e2e34;
+}
+
+.button:hover {
+    -fx-text-fill: #ab4d49;
+
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.sidemenu_buttonbar_button {
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 35%;
+    -fx-background-position: center;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+#sidemenu_ueberschriftContainer {
+    -fx-background-color: #4c494a;
+    -fx-alignment: center;
+}
+
+#warningText {
+    -fx-text-fill: red;
+}
+
+#paket_erstellen_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/PaketerstellenModus.png");
+}
+
+#paket_erstellen_button:hover {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/PaketerstellenModus_Hover.png");
+}
+
+#paket_erstellen_button:hover:pressed {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/PaketerstellenModus_Pressed.png");
+}
+
+#vorlagen_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Vorlagenmodus.png");
+}
+
+#vorlagen_button:hover {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Vorlagenmodus_Hover.png");
+}
+
+#vorlagen_button:hover:pressed {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Vorlagenmodus_Pressed.png");
+}
+
+#suchen_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Suchmodus.png");
+}
+
+#suchen_button:hover {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Suchmodus_Hover.png");
+}
+
+#suchen_button:hover:pressed {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Suchmodus_Pressed.png");
+}
+
+#regal_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Regalmodus.png");
+    -fx-background-color: #171719;
+}
+
+#regal_button:hover {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Regalmodus_Hover.png");
+    -fx-background-color: #171719;
+}
+
+#regal_button:hover:pressed {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Regalmodus_Pressed.png");
+    -fx-background-color: #171719;
+}
+
+#close_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/CloseButton.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-min-width: 40;
+    -fx-min-height: 40;
+
+}
+
+#help_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Hilfe.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-color: transparent;
+    -fx-min-width: 40;
+    -fx-min-height: 40;
+}
+
+#buttonbar_sidebar {
+    -fx-background-color: #2e2e34;
+}
+
+#paketmodus_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Paketmodus.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#h2 {
+    -fx-font-family: sans-serif;
+    -fx-font-size: 120%;
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+}
+
+#h1 {
+    -fx-font-family: sans-serif;
+    -fx-font-size: 240%;
+    -fx-text-fill: white;
+    -fx-font-weight: bolder;
+}
+
+#orangeText {
+    -fx-text-fill: FF9900;
+    -fx-font-weight: bolder;
+}
+
+#orangeTextBOLD {
+    -fx-text-fill: FF9900;
+    -fx-font-size: 140%;
+    -fx-font-weight: 600;
+}
+
+#farben_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Farbe.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#unv_button {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/Unverträglichkeiten.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+}
+
+#imageViewerLeft {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/imageViewerLeft.png");
+}
+
+#imageViewerLeft:hover {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/imageViewerLeft_Hover.png");
+
+}
+
+#imageViewerLeft:hover:pressed {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/imageViewerLeft_Pressed.png");
+}
+
+#imageViewerRight {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/imageViewerRight.png");
+}
+
+#imageViewerRight:hover {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/imageViewerRight_Hover.png");
+
+}
+
+#imageViewerRight:hover:pressed {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/imageViewerRight_Pressed.png");
+}
+
+#imageViewerLeft, #imageViewerRight {
+    -fx-background-size: 30%;
+    -fx-background-repeat: no-repeat;
+    -fx-alignment: center;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+
+}
+
+#weightInfo {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/weightInfo.png");
+}
+
+#nameInfo {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/nameInfo.png");
+
+}
+
+#widthInfo {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/widthInfo.png");
+}
+
+#heightInfo {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/heightInfo.png");
+}
+
+#idInfo {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/idInfo.png");
+}
+
+#preview_nameTextfield {
+    -fx-max-width: 200;
+    -fx-background-color: #2e2e34;
+    -fx-text-fill: FF9900;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+    -fx-font-size: 17;
+
+}
+
+#circle_unchosen {
+    -fx-opacity: 50%;
+
+}
+
+#circle_chosen {
+    -fx-background-radius: 100%;
+    -fx-min-height: 40;
+    -fx-min-width: 40;
+    -fx-border-color: #ab4d49;
+    -fx-border-radius: 100%;
+    -fx-border-width: 240%;
+    -fx-opacity: 100%;
+}
+
+#papierkorb_unten {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/papierkorb_unten.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+#papierkorb_oben {
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/papierkorb_oben.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+}
+
+#aktBrettView {
+    -fx-border-width: 0px 0px 0px 0px;
+    -fx-background-image: url("/RegalisatorEnterprise/application/persistenz/pictures/icons/brett.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: contain;
+    -fx-background-position: center;
+
+}
+
+
+
+
+
+
+
